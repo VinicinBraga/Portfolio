@@ -64,3 +64,21 @@ background: var(--color-primary)
   font-weight: 300;
   font-size: 0.9rem;
 }
+
+
+/* ========== Media Queries (Medium) ========= */
+@media screen and (max-width: 1024px) {
+  header{
+    height: 68vh;
+  }
+}
+
+/* ========== Media Queries (Small) ========= */
+@media screen and (max-width: 600px) {
+  header{
+    height: 100vh;
+  }
+  .header_socials, .scroll_down{
+    display: none;
+  }
+}
