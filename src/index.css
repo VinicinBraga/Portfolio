@@ -68,7 +68,7 @@ section > h5{
 
 section > h2{
   color: var(--color-primary);
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .text-light{
@@ -121,6 +121,7 @@ img{
   section{
     margin-top: 6rem;
     padding-top: 2rem;
+   
   }
 }
 
@@ -129,4 +130,5 @@ img{
   .container{
     width: var(--container-width-sm);
   }
+
 }
