@@ -120,7 +120,7 @@ img{
 
   section{
     margin-top: 6rem;
-    height: 100vh;
+    padding-top: 2rem;
   }
 }
 
@@ -128,9 +128,5 @@ img{
 @media screen and (max-width: 600px) {
   .container{
     width: var(--container-width-sm);
-  }
-
-  section > h2{
-    margin-top: 2rem;
   }
 }
