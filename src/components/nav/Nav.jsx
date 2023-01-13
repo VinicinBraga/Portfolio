@@ -4,6 +4,7 @@ import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
 import { BsBook } from "react-icons/bs";
 import { RiServiceLine } from "react-icons/ri";
+import { SlSpeech } from "react-icons/sl";
 import { useState } from "react";
 
 const Nav = () => {
@@ -45,6 +46,13 @@ const Nav = () => {
         className={activeNav === "#portfolio" ? "active" : ""}
       >
         <BsBook />
+      </a>
+      <a
+        href="#testimonials"
+        onClick={() => setActiveNav("#testimonial")}
+        className={activeNav === "#testimonial" ? "active" : ""}
+      >
+        <SlSpeech />
       </a>
       <a
         href="#contact"
