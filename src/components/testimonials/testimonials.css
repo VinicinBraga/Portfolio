@@ -12,7 +12,7 @@
 }
 
 .testimonial{
-  background: var(--color-primary-variant);
+  background: var(--color-bg-variant);
   text-align: center;
   padding: 2rem;
   border-radius: 2rem;
