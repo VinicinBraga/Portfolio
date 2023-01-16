@@ -11,12 +11,19 @@
 }
 
 :root{
-  --color-bg: #1f1f38;
+  /*--color-bg: #1f1f38;
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77,181,255,0.4);
   --color-white: #fff;
-  --color-light: rgba(255,255,255,0.6);
+  --color-light: rgba(255,255,255,0.6);*/
+  
+  --color-bg: #ffffff;
+  --color-bg-variant: #fff0d1;
+  --color-primary: #ff7300;
+  --color-primary-variant: #ff73008c;
+  --color-white: #000000;
+  --color-light: #2b2823a2;
 
   --transition: all 400ms ease;
 
@@ -38,7 +45,7 @@ body{
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bg-texture.png);
+  background-image: url(../src/assets/bg-texture2.png);
 }
 
 /*===== GENERAL STYLES ======*/
@@ -88,6 +95,7 @@ a:hover{
 .btn{
   width: max-content;
   display: inline-block;
+  background: var(--color-bg-variant);
   color: var(--color-primary);
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
