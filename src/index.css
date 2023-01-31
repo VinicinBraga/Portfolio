@@ -11,19 +11,13 @@
 }
 
 :root{
-  /*--color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77,181,255,0.4);
-  --color-white: #fff;
-  --color-light: rgba(255,255,255,0.6);*/
-  
-  --color-bg: #ffffff;
-  --color-bg-variant: #fff0d1;
-  --color-primary: #ff7300;
-  --color-primary-variant: #ff73008c;
-  --color-white: #000000;
-  --color-light: #2b2823a2;
+
+  --color-bg: #678c99;
+  --color-bg-variant: #516d77;
+  --color-primary: #fff1cf;
+  --color-primary-variant: #fff1cf;
+  --color-white: #d6c292;
+  --color-light: #ffffff;
 
   --transition: all 400ms ease;
 
@@ -45,7 +39,7 @@ body{
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bg-texture2.png);
+  background-image: url(../src/assets/bg-texture.png);
 }
 
 /*===== GENERAL STYLES ======*/
