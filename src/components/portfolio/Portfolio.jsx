@@ -1,12 +1,12 @@
 import React from "react";
 import "./portfolio.css";
 
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG1 from "../../assets/Fit.png";
+import IMG2 from "../../assets/e-commerce.png";
+import Netflix from "../../assets/NetflixAppClone.png";
+import IMG4 from "../../assets/dots.png";
+import IMG5 from "../../assets/CredCardApp.png";
+import IMG6 from "../../assets/TravelApp.png";
 
 const data = [
   {
@@ -25,10 +25,10 @@ const data = [
   },
   {
     id: 3,
-    image: IMG3,
-    title: "Figma dashboard UI kit for data design web apps",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps",
+    image: Netflix,
+    title: "Practicing and learning new skills in ReactJS, CSS and Rest API",
+    github: "https://github.com/VinicinBraga/Netflix-Clone",
+    demo: "https://netflix-clone-git-main-vinicinbraga.vercel.app/",
   },
   {
     id: 4,
