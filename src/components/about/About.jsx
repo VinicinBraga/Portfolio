@@ -1,8 +1,8 @@
 import React from "react";
 import "./about.css";
 import ME from "../../assets/Foto de Vinicius Braga.jpg";
-import { FaAward } from "react-icons/fa";
-import { FiUser } from "react-icons/fi";
+import { MdOutlineAccessTime } from "react-icons/md";
+import { SlGraduation } from "react-icons/sl";
 import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
@@ -19,26 +19,33 @@ const About = () => {
         <div className="about_content">
           <div className="about_cards">
             <article className="about_card">
-              <FaAward className="about_icon" />
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <MdOutlineAccessTime className="about_icon" />
+              <h5>
+                <a href="#experience">Experience</a>
+              </h5>
+              <small>2+ Years</small>
             </article>
             <article className="about_card">
-              <FiUser className="about_icon" />
-              <h5>Clients</h5>
-              <small>200+ Wordwide</small>
+              <SlGraduation className="about_icon" />
+              <h5>
+                <a href="https://www.betrybe.com/">Trybe</a>
+              </h5>
+              <small>40+ Aproves</small>
             </article>
             <article className="about_card">
               <VscFolderLibrary className="about_icon" />
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <h5>
+                <a href="#portfolio">Projects</a>
+              </h5>
+              <small>60+ Completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis mollitia quos saepe debitis, voluptatibus voluptate
-            animi consequatur odit reiciendis placeat aliquam alias cumque fuga
-            distinctio quidem sequi, inventore asperiores! Nisi?
+            My passion is finding innovative solutions to the challenges faced
+            by businesses and their clients. With skills in HTML, CSS,
+            Typescript, JavaScript, React, SQL, MongoDB, and NodeJS, I am a
+            technology developer capable of achieving significant results. This
+            combination makes me a great asset to any company.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
