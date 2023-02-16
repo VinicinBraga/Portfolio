@@ -6,7 +6,7 @@
 
 .portfolio_item{
   background: var(--color-bg-variant);
-  padding: 1.3rem;
+  padding: 1.6rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
@@ -23,13 +23,14 @@
 }
 
 .portfolio_item h3{
-  margin:  1.2rem 0 0 2rem;
+  margin:  1.2rem;
 }
 
 .portfolio_item-cta{
   display: flex;
+  justify-content: center;
   gap: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 
 

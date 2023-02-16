@@ -1,27 +1,27 @@
 import React from "react";
 import "./portfolio.css";
 
-import IMG1 from "../../assets/Fit.png";
-import IMG2 from "../../assets/e-commerce.png";
+import fit from "../../assets/Fit.png";
+import ecom from "../../assets/e-commerce.png";
 import Netflix from "../../assets/NetflixAppClone.png";
-import IMG4 from "../../assets/dots.png";
-import IMG5 from "../../assets/CredCardApp.png";
-import IMG6 from "../../assets/TravelApp.png";
+import dots from "../../assets/dots.png";
+import dash from "../../assets/Dashboard.png";
+import travel from "../../assets/TravelApp.png";
 
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
+    image: fit,
+    title: "Complete Typescript React Fitness Application",
+    github: "https://github.com/VinicinBraga/Gym-App-Project",
+    demo: "https://gym-app-project-six.vercel.app/",
   },
   {
     id: 2,
-    image: IMG2,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-inforgraphics-in-Figma",
+    image: ecom,
+    title: "E-Commerce using React JS with Redux and Bootstrap",
+    github: "https://github.com/VinicinBraga/E-commerce-App",
+    demo: "e-commerce-app-phi-three.vercel.app",
   },
   {
     id: 3,
@@ -32,24 +32,25 @@ const data = [
   },
   {
     id: 4,
-    image: IMG4,
-    title: "Maintaining tasks and tracking progress",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16955822-Maintaning-tasks-and-tracking-progress",
+    image: dots,
+    title: "Solving a challenge using ReactJS",
+    github: "https://github.com/VinicinBraga/Dots",
+    demo: "https://practicing-react.vercel.app/",
   },
   {
     id: 5,
-    image: IMG5,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-inforgraphics-in-Figma",
+    image: dash,
+    title:
+      "React Admin Dashboard App using Material UI, Data Grid, Light & Dark Mode",
+    github: "https://github.com/VinicinBraga/Adm-Dashboard",
+    demo: "https://adm-dashboard-vinicinbraga.vercel.app/",
   },
   {
     id: 6,
-    image: IMG6,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-inforgraphics-in-Figma",
+    image: travel,
+    title: "React with Redux E-Commerce Cart Project",
+    github: "https://github.com/VinicinBraga/Hotel-Web",
+    demo: "https://hotel-web-chi.vercel.app/",
   },
 ];
 
