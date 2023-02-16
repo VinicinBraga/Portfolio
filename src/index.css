@@ -12,12 +12,12 @@
 
 :root{
 
-  --color-bg: #1e5277;
-  --color-bg-variant: #3483bb;
-  --color-primary: #9abadb;
-  --color-primary-variant: #9abadb;
-  --color-white: #ffffff;
-  --color-light: #ffffff;
+  --color-bg: #172c3c;
+  --color-bg-variant: #274862;
+  --color-primary: #b3c631;
+  --color-primary-variant: #cde54e;
+  --color-white: #f8fef4;
+  --color-light: #f8fef4;
 
   --transition: all 400ms ease;
 
@@ -50,11 +50,11 @@ body{
 }
 
 h1, h2, h3, h4, h5{
-  font-weight: 500;
+  font-weight: 300;
 } 
 
 h1{
-  font-size: 2.5rem;
+  font-size: 2.0rem;
 }
 
 section{
@@ -94,7 +94,7 @@ a:hover{
   display: inline-block;
   background: var(--color-bg-variant);
   color: var(--color-primary);
-  padding: 0.75rem 1.2rem;
+  padding: 0.60rem 1.0rem;
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);

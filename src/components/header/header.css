@@ -14,7 +14,7 @@ header{
 /*========= CTA ===== */
 
 .cta{
-  margin-top: 2.5rem;
+  margin-top: 2.0rem;
   display: flex;
   gap: 1.2rem;
   justify-content: center;
@@ -40,7 +40,7 @@ header{
   height: 40rem;
   position: absolute;
   left: calc(50% - 15rem);
-  margin-top: 4rem;
+  margin-top: 2rem;
   border-radius: 12rem 12rem 12rem 12rem;
   overflow: hidden;
   display: flex;
