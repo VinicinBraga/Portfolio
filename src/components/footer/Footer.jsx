@@ -1,8 +1,8 @@
 import React from "react";
 import "./footer.css";
-import { FaFacebookF } from "react-icons/fa";
-import { FiInstagram } from "react-icons/fi";
-import { IoLogoTwitter } from "react-icons/io";
+import { FiLinkedin } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
+import { SiInstagram } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -22,27 +22,21 @@ const Footer = () => {
           <a href="#experience">Experience</a>
         </li>
         <li>
-          <a href="#services">Services</a>
-        </li>
-        <li>
-          <a href="#portifolio">Portifolio</a>
-        </li>
-        <li>
-          <a href="#testimonials">Testimonials</a>
+          <a href="#portfolio">Portifolio</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className="footer_socials">
-        <a href="https://facebook.com">
-          <FaFacebookF />
+        <a href="https://github.com/VinicinBraga">
+          <FiGithub />
         </a>
-        <a href="https://instagram.com">
-          <FiInstagram />
+        <a href="https://www.linkedin.com/in/vinícius-braga/">
+          <FiLinkedin />
         </a>
-        <a href="https://twitter.com">
-          <IoLogoTwitter />
+        <a href="https://www.instagram.com/vini_braga85">
+          <SiInstagram />
         </a>
       </div>
       <div className="footer_copyright">

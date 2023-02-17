@@ -13,11 +13,11 @@
 :root{
 
   --color-bg: #172c3c;
-  --color-bg-variant: #274862;
-  --color-primary: #b3c631;
-  --color-primary-variant: #cde54e;
+  --color-bg-variant: #2b2e61;
+  --color-primary: #a3c5eb;
+  --color-primary-variant: #a3c5eba9;
   --color-white: #f8fef4;
-  --color-light: #f8fef4;
+  --color-light: #f8fef4a2;
 
   --transition: all 400ms ease;
 
@@ -36,10 +36,11 @@ html{
 
 body{
   font-family: 'Poppins', sans-serif;
-  background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bg-texture.png);
+  background: url(../src/assets/background.jpg);
+  background-size: 0.2% 5000%;
+
 }
 
 /*===== GENERAL STYLES ======*/
