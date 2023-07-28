@@ -12,12 +12,12 @@
 
 :root{
 
-  --color-bg: #172c3c;
-  --color-bg-variant: #2b2e61;
-  --color-primary: #a3c5eb;
-  --color-primary-variant: #a3c5eba9;
-  --color-white: #f8fef4;
-  --color-light: #f8fef4a2;
+  --color-bg: #bfcff7;
+  --color-bg-variant: #dce4f7;
+  --color-primary: #00394b;
+  --color-primary-variant: #5c5c5c;
+  --color-white: #008bb6;
+  --color-light: #dce4f7;
 
   --transition: all 400ms ease;
 
@@ -38,8 +38,7 @@ body{
   font-family: 'Poppins', sans-serif;
   color: var(--color-white);
   line-height: 1.7;
-  background: url(../src/assets/background.jpg);
-  background-size: 0.2% 5000%;
+  background-color:var(--color-light)
 
 }
 
