@@ -9,7 +9,7 @@ const Experience = () => {
       <h2>My Experience</h2>
 
       <div className="container experience_container">
-        <div className="experience_frontend">
+        <div className="experience_data">
           <h3>Data Analytics</h3>
           <div className="experience_content">
             <article className="experience_details">
@@ -56,7 +56,7 @@ const Experience = () => {
             </article>
           </div>
         </div>
-        <div className="experience_backend">
+        <div className="experience_dev">
           <h3>Developer</h3>
           <div className="experience_content">
             <article className="experience_details">

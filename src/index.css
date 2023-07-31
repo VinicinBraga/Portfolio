@@ -14,7 +14,7 @@
 
   --color-bg: #c1b398;
   --color-bg-variant: #999999;
-  --color-primary: #d66700;
+  --color-primary: #147900;
   --color-primary-variant: #5c5c5c;
   --color-white: #000000; 
   --color-light: #b3b3b3; 
@@ -65,7 +65,7 @@ section{
 section > h2, 
 section > h5{
   text-align: center;
-  color: var(--color-light);
+  color: var(--color-white);
 }
 
 section > h2{
