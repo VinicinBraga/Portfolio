@@ -62,12 +62,12 @@
 
 .about_card small{
   font-size: 0.7rem;
-  color: var(--color-light);
+  color: var(--color-white);
 }
 
 .about_content p{
   margin: 2rem 0 2.6rem;
-  color: var(--color-light);
+  color: var(--color-white);
 }
 
 /* ========== Media Queries (Medium) ========= */
