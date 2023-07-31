@@ -1,10 +1,8 @@
 import React from "react";
 import "./nav.css";
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
-import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
-import { BsBook } from "react-icons/bs";
-import { RiServiceLine } from "react-icons/ri";
-import { SlSpeech } from "react-icons/sl";
+import { AiOutlineHome } from "react-icons/ai";
+import { BiMessageSquareDetail, BiUser } from "react-icons/bi";
+import { BsBook, BsPatchCheck, BsShieldCheck } from "react-icons/bs";
 import { useState } from "react";
 
 const Nav = () => {
@@ -24,21 +22,21 @@ const Nav = () => {
         onClick={() => setActiveNav("#about")}
         className={activeNav === "#about" ? "active" : ""}
       >
-        <AiOutlineUser />
+        <BiUser />
       </a>
       <a
         href="#certificate"
         onClick={() => setActiveNav("#certificate")}
         className={activeNav === "#certificate" ? "active" : ""}
       >
-        <BiBook />
+        <BsPatchCheck />
       </a>
       <a
         href="#experience"
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
       >
-        <BiBook />
+        <BsShieldCheck />
       </a>
       <a
         href="#portfolio"

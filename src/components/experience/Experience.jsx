@@ -1,6 +1,6 @@
 import React from "react";
 import "./experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
+import { BsShieldFillCheck } from "react-icons/bs";
 
 const Experience = () => {
   return (
@@ -13,42 +13,42 @@ const Experience = () => {
           <h3>Data Analytics</h3>
           <div className="experience_content">
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <BsShieldFillCheck className="experience_details-icon" />
               <div>
                 <h4>Python</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <BsShieldFillCheck className="experience_details-icon" />
               <div>
                 <h4>SQL</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <BsShieldFillCheck className="experience_details-icon" />
               <div>
                 <h4>Tableau</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <BsShieldFillCheck className="experience_details-icon" />
               <div>
                 <h4>R</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <BsShieldFillCheck className="experience_details-icon" />
               <div>
                 <h4>Power BI</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <BsShieldFillCheck className="experience_details-icon" />
               <div>
                 <h4>Excel</h4>
                 <small className="tect-light">Experienced</small>
@@ -60,42 +60,42 @@ const Experience = () => {
           <h3>Developer</h3>
           <div className="experience_content">
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <BsShieldFillCheck className="experience_details-icon" />
               <div>
                 <h4>React JS</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <BsShieldFillCheck className="experience_details-icon" />
               <div>
                 <h4>Typescrypt</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <BsShieldFillCheck className="experience_details-icon" />
               <div>
                 <h4>Node JS</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <BsShieldFillCheck className="experience_details-icon" />
               <div>
                 <h4>Express.js</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <BsShieldFillCheck className="experience_details-icon" />
               <div>
                 <h4>MongoDB</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
+              <BsShieldFillCheck className="experience_details-icon" />
               <div>
                 <h4>MySQL</h4>
                 <small className="tect-light">Experienced</small>
