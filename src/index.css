@@ -13,11 +13,11 @@
 :root{
 
   --color-bg: #c1b398;
-  --color-bg-variant: #f8f0af; /*Fundo Botões*/
+  --color-bg-variant: #f8f0af;
   --color-primary: #ac4a00;
   --color-primary-variant: #5c5c5c;
-  --color-white: #000000; /*detalhes*/
-  --color-light: #ffffff; /*Fundo*/
+  --color-white: #000000; 
+  --color-light: #ffffff; 
 
   --transition: all 400ms ease;
 
