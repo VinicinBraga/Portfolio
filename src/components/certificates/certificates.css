@@ -34,6 +34,7 @@
 
 .certificate_details{
   display: flex;
+  gap: 1rem;
 }
 
 .certificate_details-icon{
@@ -44,7 +45,7 @@
 
 .certificate_text{
   width: 100%;
-  margin-left: -2.2vw;
+  margin-left: -3.2vw;
   margin-top: 2vh;
   text-align: justify;
 
