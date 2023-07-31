@@ -10,55 +10,69 @@ const Experience = () => {
 
       <div className="container experience_container">
         <div className="experience_frontend">
-          <h3>Frontend Development</h3>
+          <h3>Data Analytics</h3>
           <div className="experience_content">
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>HTML</h4>
+                <h4>Python</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>CSS</h4>
+                <h4>SQL</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>ReactJS</h4>
+                <h4>Tableau</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>JavaScript</h4>
+                <h4>R</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>Typescript</h4>
-                <small className="tect-light">Intermediate</small>
+                <h4>Power BI</h4>
+                <small className="tect-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>TailWind</h4>
+                <h4>Excel</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
           </div>
         </div>
         <div className="experience_backend">
-          <h3>Backend Development</h3>
+          <h3>Developer</h3>
           <div className="experience_content">
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>React JS</h4>
+                <small className="tect-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>Typescrypt</h4>
+                <small className="tect-light">Experienced</small>
+              </div>
+            </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
@@ -69,7 +83,7 @@ const Experience = () => {
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>Express</h4>
+                <h4>Express.js</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
@@ -84,21 +98,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
                 <h4>MySQL</h4>
-                <small className="tect-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-                <h4>Python</h4>
-                <small className="tect-light">Basic</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-                <h4>PHP</h4>
-                <small className="tect-light">Basic</small>
+                <small className="tect-light">Experienced</small>
               </div>
             </article>
           </div>
