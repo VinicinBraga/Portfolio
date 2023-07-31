@@ -41,11 +41,12 @@ const About = () => {
             </article>
           </div>
           <p>
-            My passion is finding innovative solutions to the challenges faced
-            by businesses and their clients. With skills in HTML, CSS,
-            Typescript, JavaScript, React, SQL, MongoDB, and NodeJS, I am a
-            technology developer capable of achieving significant results. This
-            combination makes me a great asset to any company.
+            My goal is to find effective solutions to tackle the challenges of
+            companies and their clients. I am highly motivated to understand
+            needs, work as a team, and focus on developing solutions that have a
+            positive impact on all parties involved. In this way, I am seeking
+            an opportunity to use my creative thinking and problem-solving
+            skills to contribute to the success of the company and its clients.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
