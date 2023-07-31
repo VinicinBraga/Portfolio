@@ -18,29 +18,21 @@ const About = () => {
         </div>
         <div className="about_content">
           <div className="about_cards">
-            <article className="about_card">
+            <a className="about_card" href="#experience">
               <MdOutlineAccessTime className="about_icon" />
-              <h5>
-                <a href="#experience">Experience</a>
-              </h5>
+              <h5>Experience</h5>
               <small>2+ Years</small>
-            </article>
-            <article className="about_card">
+            </a>
+            <a className="about_card" href="https://www.betrybe.com/">
               <SlGraduation className="about_icon" />
-              <h5>
-                <a href="https://www.betrybe.com/">Trybe</a>
-              </h5>
+              <h5>Trybe</h5>
               <small>40+ Aproves</small>
-            </article>
-            <article className="about_card">
-              <a href="#portfolio">
-                <VscFolderLibrary className="about_icon" />
-                <h5>
-                  <a>Projects</a>
-                </h5>
-                <small>60+ Completed</small>
-              </a>
-            </article>
+            </a>
+            <a className="about_card" href="#portfolio">
+              <VscFolderLibrary className="about_icon" />
+              <h5>Projects</h5>
+              <small>60+ Completed</small>
+            </a>
           </div>
           <p>
             My goal is to find effective solutions to tackle the challenges of
