@@ -1,67 +1,120 @@
-.experience_container{
+.certificate_container{
   display: flex;
   flex-direction: column;
 }
 
-.experience_container > div{
+.certificate_main{
+  margin-bottom: 2vh;
+}
+
+.certificate_container > div{
   background: var(--color-bg-variant);
   padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 1px solid transparent;
 }
 
-.experience_container > div:hover{
+.certificate_container > div:hover{
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: default;
 }
 
-.experience_container> div h3{
+.certificate_container> div h3{
   text-align: center;
   margin-bottom: 2rem;
   color: var(--color-primary);
 }
 
-.experience_content{
+.certificate_content{
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
 }
 
-.experience_details{
+.certificate_details{
   display: flex;
   gap: 1rem;
 }
 
-.experience_details-icon{
+.certificate_details-icon{
   margin-top: 6px;
   color: var(--color-primary);
+  width: 20vw;
 }
+
+.certificate_text{
+  width: 100%;
+  margin-left: -3.2vw;
+  margin-top: 2vh;
+  text-align: justify;
+
+}
+
+.certificate_box_image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.certificate_image{
+  width: 70%;
+}
+
 
 /* ========== Media Queries (Medium) ========= */
 @media screen and (max-width: 1024px) {
-  .experience_container{
+  .certificate_container{
     grid-template-columns: 1fr;
   }
-  .experience_container > div{
+  .certificate_container > div{
     width: 80%;
     padding: 2rem;
     margin: 0 auto;
   }
-  .experience_content{
+  .certificate_content{
     padding: 1rem;
   }
+
+ 
+  
 }
 
 /* ========== Media Queries (Small)========= */
 @media screen and (max-width: 600px) {
+ .certificate_main{
+  border: red 1px solid;
+ } 
  
-  .experience_container{
-    gap: 1rem;
-  }
+  .certificate_content{
+  display: flex;
+  flex-direction: column;
+ }
 
-  .experience_container > div{
-    width: 100%;
-    padding: 2rem 1rem;
-  }
+ .certificate_details{
+  margin-top: -5vh;
+ }
+
+ .certificate_details-icon{
+  margin-top: 6px;
+  color: var(--color-primary);
+  width: 60vw;
+}
+ .certificate_text{
+  width: 165%;
+  margin-left: -16vw;
+  margin-top: 2vh;
+  font-size: small;
+ }
+
+ .certificate_box_image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.certificate_image{
+  width: 118%;
+}
+ 
 }
