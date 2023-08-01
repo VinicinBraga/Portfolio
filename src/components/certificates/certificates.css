@@ -30,8 +30,9 @@
   flex-direction: row;
   align-items: center;
   color: var(--color-white);
-  margin-bottom: 2vw;
+  margin-bottom: 2vh;
 }
+
 .certificate_name h4{
   margin-left: 0.5vw;
 }
@@ -80,6 +81,10 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(1, 1fr);;
+  }
+
+  .certificate_name {
+    margin-top: -2vh;
   }
   
   .certificate_text{
