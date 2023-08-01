@@ -80,4 +80,10 @@ header{
   .header_socials, .scroll_down{
     display: none;
   }
+
+  .cta a{
+    width: 29vw;
+    background: var(--color-primary);
+    color: var(--color-bg);
+  }
 }
