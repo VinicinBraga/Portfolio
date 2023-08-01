@@ -1,5 +1,6 @@
 import React from "react";
 import CV from "../../assets/Currículo-ViníciusBraga.pdf";
+import { BiMessageSquareDetail } from "react-icons/bi";
 
 const CTA = () => {
   return (
@@ -7,8 +8,8 @@ const CTA = () => {
       <a href={CV} download className="btn">
         Download CV
       </a>
-      <a href="#contact" className="btn btn-primary">
-        Let's Talk
+      <a href="#contact" className="btn">
+        Let's Talk <BiMessageSquareDetail />
       </a>
     </div>
   );
