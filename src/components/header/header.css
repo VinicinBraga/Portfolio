@@ -82,7 +82,7 @@ header{
   }
 
   .cta a{
-    width: 29vw;
+    width: 32vw;
     background: var(--color-primary);
     color: var(--color-bg);
   }
