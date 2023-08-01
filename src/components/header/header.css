@@ -30,7 +30,7 @@ header{
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 9rem;
+  bottom: 2.7rem;
 }
 
 /*========= ME ===== */
@@ -53,7 +53,7 @@ header{
 .scroll_down{
   position: absolute;
   right: -2.3rem;
-  bottom: 12rem;
+  bottom: 6rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 1.5rem;
