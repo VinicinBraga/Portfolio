@@ -21,7 +21,14 @@ header{
 }
 
 .cta a{
-  width: 11vw;
+  width: 12vw;
+  background: var(--color-light);
+  border: solid 1px var(--color-primary-variant);
+  color: var(--color-primary);
+}
+
+.cta a:hover{
+  width: 12vw;
   background: var(--color-primary);
   color: var(--color-bg);
 }

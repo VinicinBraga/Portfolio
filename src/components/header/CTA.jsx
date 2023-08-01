@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/Currículo-ViníciusBraga.pdf";
+import CV from "../../assets/Currículo - ViníciusBraga.pdf";
 import { BiMessageSquareDetail } from "react-icons/bi";
 
 const CTA = () => {
