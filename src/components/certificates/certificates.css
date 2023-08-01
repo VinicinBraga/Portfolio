@@ -3,22 +3,33 @@
   flex-direction: column;
   height: 60vh;
   background: var(--color-bg-variant);
-  border: 1.5px solid  var(--color-primary-variant);
+  border: 1.5px solid  transparent;
   padding: 2.4rem 5rem;
   border-radius: 2rem;
   margin-bottom: 4vh;
   transition: var(--transition);
 }
 
+.certificate_container:hover{
+  background: transparent;
+  border: 1.5px solid  var(--color-primary-variant);
+  cursor: pointer;
+}
+
+.certificate_container h3{
+  color: var(--color-primary);
+}
+
 .certificate_content{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);;
 }
 
 .certificate_name {
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: var(--color-primary);
+  color: var(--color-white);
   margin-bottom: 2vw;
 }
 .certificate_name h4{
@@ -29,23 +40,12 @@
   width: 35vw;
   text-align: justify;
   margin-right: 5vw;
+  color: var(--color-primary);
 }
 
 .certificate_box_image{
-  margin-top: -4vh;
-  transition: var(--transition);
   cursor: pointer;
 }
-
-.certificate_box_image:hover{
-  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
-  margin-bottom: 1px;
-  margin-right: 1px;
-  margin-left: -1px;
-}
-
-
-
 
 /* ========== Media Queries (Medium) ========= */
 @media screen and (max-width: 1024px) {
@@ -60,8 +60,6 @@
   .certificate_content{
     padding: 1rem;
   }
-
- 
   
 }
 
@@ -69,8 +67,8 @@
 @media screen and (max-width: 600px) {
 
   .certificate_container{
-    padding: 1rem 1rem;
     height: 60vh;
+    padding: 0rem 0rem;
   }
 
   .certificate_container h3{
@@ -79,33 +77,19 @@
   }
   
   .certificate_content{
-    flex-direction: column;
-  }
-  
-  .certificate_name {
-    margin-top: -2vh;
-    margin-left: -4vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 1fr);;
   }
   
   .certificate_text{
-    width: 60vw;
-    height: 20vh;
+    width: 100%;
     font-size: 12px;
     text-align: justify;
-    margin-right: 0vw;
-    margin-left: -4vw;
-    margin-bottom: 0vh;
   }
   
   .certificate_box_image{
-    margin-top: 0vh;
-    transition: var(--transition);
+    margin-top: 4vw;
   }
   
-  .certificate_box_image:hover{
-    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
-    margin-bottom: 1px;
-    margin-right: 1px;
-    margin-left: -1px;
-  }
 }
