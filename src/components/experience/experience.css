@@ -41,7 +41,7 @@
 
 .experience_details-icon{
   margin-top: 6px;
-  color:rgb(194, 165, 0);
+  color: var(--color-primary);
 }
 
 /* ========== Media Queries (Medium) ========= */
