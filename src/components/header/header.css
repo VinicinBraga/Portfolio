@@ -28,7 +28,6 @@ header{
 }
 
 .cta a:hover{
-  width: 12vw;
   background: var(--color-primary);
   color: var(--color-bg);
 }
@@ -90,8 +89,6 @@ header{
 
   .cta a{
     width: 28.5vw;
-    background: var(--color-primary);
-    color: var(--color-light);
     font-size: 12px;
   }
 }
