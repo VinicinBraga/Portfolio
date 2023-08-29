@@ -80,11 +80,10 @@ header{
 /* ========== Media Queries (Small) ========= */
 @media screen and (max-width: 600px) {
   header{
-    height: 900vh;
+    height: 100vh;
   }
 
   .me{
-    border: red 1px solid;
     margin-top: 4vh;
     margin-left: -5vw;
     margin-right: -5vw;
