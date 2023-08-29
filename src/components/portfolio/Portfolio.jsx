@@ -1,6 +1,5 @@
 import React from "react";
 import "./portfolio.css";
-
 import fit from "../../assets/Fit.png";
 import ecom from "../../assets/e-commerce.png";
 import Netflix from "../../assets/NetflixAppClone.png";
