@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/Foto de Vinicius Braga.jpg";
+import ME from "../../assets/aboutPhoto.jpg";
 import { MdOutlineAccessTime } from "react-icons/md";
 import { SlGraduation } from "react-icons/sl";
 import { VscFolderLibrary } from "react-icons/vsc";
