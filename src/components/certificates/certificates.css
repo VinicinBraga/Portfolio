@@ -11,9 +11,8 @@
 }
 
 .certificate_container:hover{
-  background: transparent;
+  background: var(--color-light);
   border: 1.5px solid  var(--color-primary-variant);
-  cursor: pointer;
 }
 
 .certificate_container h3{
@@ -38,14 +37,21 @@
 }
 
 .certificate_text{
+  display: flex;
   width: 35vw;
+  margin-top: 5vh;
   text-align: justify;
   margin-right: 5vw;
   color: var(--color-primary);
+  font-size: larger;
 }
 
 .certificate_box_image{
   cursor: pointer;
+}
+
+.certificate_box_image:hover{
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 /* ========== Media Queries (Medium) ========= */
@@ -90,7 +96,7 @@
   .certificate_text{
     width: 100%;
     font-size: 12px;
-    text-align: justify;
+    margin-top: 2vh;
   }
   
   .certificate_box_image{
