@@ -13,13 +13,15 @@ const Header = () => {
         <h4>Data Analytics | Web Developer</h4>
         <CTA />
         <div className="images-container">
-          <HeaderSocial />
           <div className="me">
             <img src={ME} alt="me" />
           </div>
-          <a href="#contact" className="scroll_down">
-            Scroll Down
-          </a>
+          <div className="fixed-buttons">
+            <HeaderSocial />
+            <a href="#contact" className="scroll_down">
+              Scroll Down
+            </a>
+          </div>
         </div>
       </div>
     </header>

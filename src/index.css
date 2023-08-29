@@ -38,7 +38,8 @@ body{
   font-family: 'Poppins', sans-serif;
   color: var(--color-white);
   line-height: 1.7;
-  background-color:var(--color-light)
+  background: url('./assets/background-data.jpeg');
+  background-size: contain;
 
 }
 
