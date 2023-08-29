@@ -22,7 +22,7 @@
 }
 
 .contact_option:hover{
-  background: transparent;
+  background: var( --color-light);
   border-color: var(--color-primary-variant);
 }
 
@@ -47,7 +47,7 @@ input, textarea{
   width: 100%;
   padding: 1.5rem;
   border-radius: 0.5rem;
-  background: transparent;
+  background: var( --color-light);
   border: 2px solid var(--color-primary-variant);
   resize: none;
   color: var(--color-white);
