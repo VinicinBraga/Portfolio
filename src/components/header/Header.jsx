@@ -1,6 +1,6 @@
 import React from "react";
 import CTA from "./CTA";
-import ME from "../../assets/mainPhto.jpg";
+import ME from "../../assets/mainPhoto.png";
 import HeaderSocial from "./HeaderSocial";
 import "./header.css";
 
@@ -12,15 +12,15 @@ const Header = () => {
         <h1 className="text-primary">Vinícius Braga Matta</h1>
         <h4>Data Analytics | Web Developer</h4>
         <CTA />
-        <HeaderSocial />
-
-        <div className="me">
-          <img src={ME} alt="me" />
+        <div className="images-container">
+          <HeaderSocial />
+          <div className="me">
+            <img src={ME} alt="me" />
+          </div>
+          <a href="#contact" className="scroll_down">
+            Scroll Down
+          </a>
         </div>
-
-        <a href="#contact" className="scroll_down">
-          Scroll Down
-        </a>
       </div>
     </header>
   );

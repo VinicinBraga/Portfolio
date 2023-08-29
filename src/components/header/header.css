@@ -8,7 +8,6 @@ header{
   text-align: center;
   height: 100%;
   padding-top: 2rem;
-  position: relative;
 }
 
 /*========= CTA ===== */
@@ -32,6 +31,11 @@ header{
   color: var(--color-bg);
 }
 
+.images-container{
+  display: flex;
+  justify-content: center;
+}
+
 /*========= Header Socials ===== */
 
 .header_socials{
@@ -39,36 +43,31 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.8rem;
+  gap: 0.5rem;
   position: absolute;
   left: 0;
-  bottom: 2.7rem;
+  bottom: 5rem;
+  margin-left: 6vw;
 }
 
 /*========= ME ===== */
 
 .me{
-  background: linear-gradient(var(--color-primary), transparent) ;
-  width: 30rem;
-  height: 40rem;
-  position: absolute;
-  left: calc(50% - 15rem);
-  margin-top: 2rem;
-  border-radius: 12rem 12rem 12rem 12rem;
-  overflow: hidden;
   display: flex;
+  width: 44rem;
+  margin-left: 8vw;
+  opacity: 0.9;
 }
 
 
 /*========= Scroll Down ===== */
 
 .scroll_down{
-  position: absolute;
-  right: -2.3rem;
   bottom: 6rem;
   transform: rotate(90deg);
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  z-index: 2;
 }
 
 /* ========== Media Queries (Medium) ========= */
@@ -81,8 +80,14 @@ header{
 /* ========== Media Queries (Small) ========= */
 @media screen and (max-width: 600px) {
   header{
-    height: 100vh;
+    height: 70vh;
   }
+
+  .me{
+    margin-top: 2vh;
+    margin-left: 0vw;
+  }
+
   .header_socials, .scroll_down{
     display: none;
   }

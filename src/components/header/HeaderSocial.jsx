@@ -7,13 +7,13 @@ const HeaderSocial = () => {
   return (
     <div className="header_socials">
       <a href="https://www.linkedin.com/in/vinícius-braga" target="_blank">
-        <BsLinkedin size={30} />
+        <BsLinkedin size={25} />
       </a>
       <a href="https://github.com/VinicinBraga" target="_blank">
-        <FaGithub size={30} />
+        <FaGithub size={25} />
       </a>
       <a href="https://www.instagram.com/vini_braga85" target="_blank">
-        <SiInstagram size={30} />
+        <SiInstagram size={25} />
       </a>
     </div>
   );
