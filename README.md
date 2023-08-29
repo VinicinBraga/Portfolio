@@ -5,10 +5,7 @@ Criado utilizando JavaScript, Tailwind e React Icons, este portfólio apresenta 
 <div>
      <img src="./src/assets/capa.png" alt="port" width="500"/>
     <img src="./src/assets/capa-mobile.png" alt="mobile" width="150"/>
-
 </div>
-
-![Portfolio-Mobile]()
 
 ## Visite o Portfolio
 https://portfolio-bay-two-82.vercel.app/
