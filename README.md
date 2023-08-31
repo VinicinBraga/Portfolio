@@ -1,10 +1,11 @@
 # My Personal Portfolio
 
-Bem-vindo ao meu portfólio! Aqui você encontrará uma amostra do meu trabalho como analista de dados e desenvolvedor web. Criado utilizando JavaScript, Tailwind e React Icons, este portfólio apresenta projetos que demonstram minha capacidade de transformar dados em insights e criar interfaces atraentes. Explore e descubra como a análise de dados se funde harmoniosamente com o design web."
-
-![Portfolio](./src/assets/capa.png)
-
-![Portfolio-Mobile](./src/assets/capa-mobile.png)
+Bem-vindo ao meu portfólio! Aqui você encontrará uma amostra do meu trabalho como analista de dados e desenvolvedor web. 
+Criado utilizando JavaScript, Tailwind e React Icons, este portfólio apresenta projetos que demonstram minha capacidade de transformar dados em insights e criar interfaces atraentes. Explore e descubra como a análise de dados se funde harmoniosamente com o design web."
+<div>
+     <img src="./src/assets/capa.png" alt="port" width="500"/>
+    <img src="./src/assets/capa-mobile.png" alt="mobile" width="150"/>
+</div>
 
 ## Visite o Portfolio
 https://portfolio-bay-two-82.vercel.app/
