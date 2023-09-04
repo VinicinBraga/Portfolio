@@ -1,55 +1,57 @@
 import React from "react";
 import "./portfolio.css";
-import fit from "../../assets/Fit.png";
-import ecom from "../../assets/e-commerce.png";
-import Netflix from "../../assets/NetflixAppClone.png";
-import dots from "../../assets/dots.png";
-import dash from "../../assets/Dashboard.png";
-import travel from "../../assets/TravelApp.png";
+import gym from "../../assets/portfolio-images/gym.png";
+import dash from "../../assets/portfolio-images/dashboard.png";
+import netflix from "../../assets/portfolio-images/Netflix.png";
+import memory from "../../assets/portfolio-images/memory.png";
+import meta from "../../assets/portfolio-images/metabase.png";
+import agriculture from "../../assets/portfolio-images/Agriculture.png";
 
 const data = [
   {
     id: 1,
-    image: fit,
-    title: "Complete Typescript React Fitness Application",
-    github: "https://github.com/VinicinBraga/Gym-App-Project",
-    demo: "https://gym-app-project-six.vercel.app/",
-  },
-  {
-    id: 2,
-    image: ecom,
-    title: "E-Commerce using React JS with Redux and Bootstrap",
-    github: "https://github.com/VinicinBraga/E-commerce-App",
-    demo: "e-commerce-app-phi-three.vercel.app",
-  },
-  {
-    id: 3,
-    image: Netflix,
-    title: "Practicing and learning new skills in ReactJS, CSS and Rest API",
-    github: "https://github.com/VinicinBraga/Netflix-Clone",
-    demo: "https://netflix-clone-git-main-vinicinbraga.vercel.app/",
-  },
-  {
-    id: 4,
-    image: dots,
-    title: "Solving a challenge using ReactJS",
-    github: "https://github.com/VinicinBraga/Dots",
-    demo: "https://practicing-react.vercel.app/",
-  },
-  {
-    id: 5,
     image: dash,
     title:
       "React Admin Dashboard App using Material UI, Data Grid, Light & Dark Mode",
-    github: "https://github.com/VinicinBraga/Adm-Dashboard",
-    demo: "https://adm-dashboard-vinicinbraga.vercel.app/",
+    github: "https://github.com/VinicinBraga/Dashboard-app",
+    demo: "https://dashboard-app-frontend.vercel.app",
+  },
+  {
+    id: 2,
+    image: meta,
+    title:
+      " Data analysis and SQL skills, intuitive and interactive visualizations",
+    github: "https://github.com/VinicinBraga/Metabase-Dashboards",
+    demo: "https://github.com/VinicinBraga/Metabase-Dashboards/blob/main/images/Orders1.png",
+  },
+  {
+    id: 3,
+    image: agriculture,
+    title: "Data analysis using Google Colaboratory and Python skills, ",
+    github: "https://github.com/VinicinBraga/Agricultural-Raw-Material-Project",
+    demo: "https://github.com/VinicinBraga/Agricultural-Raw-Material-Project/blob/main/src/Agricultural_Raw_Material_ipymb.ipynb",
+  },
+  {
+    id: 4,
+    image: memory,
+    title: "Game Application using React and Typescript",
+    github: "https://github.com/VinicinBraga/Memory-Game/tree/main",
+    demo: "https://memory-game-vinicinbraga.vercel.app",
+  },
+  {
+    id: 5,
+    image: gym,
+    title: "Complete Typescript React Application using Tailwind",
+    github: "https://github.com/VinicinBraga/Gym-App-Project",
+    demo: "https://netflix-clone-git-main-vinicinbraga.vercel.app/",
   },
   {
     id: 6,
-    image: travel,
-    title: "React with Redux E-Commerce Cart Project",
-    github: "https://github.com/VinicinBraga/Hotel-Web",
-    demo: "https://hotel-web-chi.vercel.app/",
+    image: netflix,
+    title:
+      "A clone of Netflix's landing page, built with React, JavaScript, and Material-UI.",
+    github: "https://github.com/VinicinBraga/Netflix-Clone",
+    demo: "https://netflix-clone-henna-nine.vercel.app",
   },
 ];
 
