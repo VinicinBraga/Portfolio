@@ -11,7 +11,7 @@
   background: linear-gradient(
     45deg, 
     transparent,
-    var(--color-primary), 
+    var(--color-white), 
     transparent
   );
   display: grid;
@@ -58,11 +58,13 @@
 .about_card h5{
   padding: 0rem;
   font-size: 0.95rem;
+  color: var(--color-primary-variant);
 }
 
 .about_card small{
-  font-size: 0.7rem;
-  color: var(--color-white);
+  font-size: 0.8rem;
+  color: var(--color-primary);
+  
 }
 
 .about_content p{
