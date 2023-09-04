@@ -13,12 +13,12 @@ const certificate = () => {
       <div className="container">
         <div className="certificate_container">
           <h3>Google</h3>
+          <div className="certificate_name">
+            <BsPatchCheckFill className="certificate_details-icon" />
+            <h4>Data Analytics</h4>
+          </div>
           <div className="certificate_content">
             <article className="certificate_details">
-              <div className="certificate_name">
-                <BsPatchCheckFill className="certificate_details-icon" />
-                <h4>Data Analytics</h4>
-              </div>
               <div className="certificate_text">
                 <h5>
                   Graduated from Google's Data Analytics course, a program
@@ -28,7 +28,7 @@ const certificate = () => {
                   methodologies. Practical team projects facilitated the
                   development of communication, collaboration, and
                   problem-solving abilities, preparing me to excel in real-world
-                  data analysis challenges.
+                  data analysis challenges. My Experience
                 </h5>
               </div>
             </article>
@@ -41,12 +41,12 @@ const certificate = () => {
         </div>
         <div className="certificate_container">
           <h3>Trybe</h3>
+          <div className="certificate_name">
+            <BsPatchCheckFill className="certificate_details-icon" />
+            <h4>Web Developer</h4>
+          </div>
           <div className="certificate_content">
             <article className="certificate_details">
-              <div className="certificate_name">
-                <BsPatchCheckFill className="certificate_details-icon" />
-                <h4>Web Developer</h4>
-              </div>
               <div className="certificate_text">
                 <h5>
                   Graduated from Trybe, a software development school focused on

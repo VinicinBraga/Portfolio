@@ -1,7 +1,6 @@
 .certificate_container{
-  display: flex;
+  display: block;
   flex-direction: column;
-  height: 60vh;
   background: var(--color-bg-variant);
   border: 1.5px solid  transparent;
   padding: 2.4rem 5rem;
@@ -21,7 +20,8 @@
 
 .certificate_content{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
 }
 
 .certificate_name {
@@ -36,10 +36,14 @@
   margin-left: 0.5vw;
 }
 
+.certificate_details{
+  display: flex;
+  width: 120%;
+}
+
 .certificate_text{
   display: flex;
-  width: 35vw;
-  margin-top: 5vh;
+  align-items: center;
   text-align: justify;
   margin-right: 5vw;
   color: var(--color-primary);
@@ -47,60 +51,68 @@
 }
 
 .certificate_box_image{
+  display: flex;
+  align-items: center;
   cursor: pointer;
+  width: 80%;
+  margin-left: 20%;
+  
 }
 
 .certificate_box_image:hover{
-  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  -webkit-filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%)); 
+        filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 40%));
 }
 
 /* ========== Media Queries (Medium) ========= */
 @media screen and (max-width: 1024px) {
   .certificate_container{
-    grid-template-columns: 1fr;
+    padding: 2.4rem 2rem;
+    margin-bottom: 4vh;
+    transition: var(--transition);
   }
-  .certificate_container > div{
-    width: 80%;
-    padding: 2rem;
-    margin: 0 auto;
-  }
+
   .certificate_content{
-    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   
+  .certificate_details{
+    width: 100%;
+  }
+
+  .certificate_box_image{
+    width: 100%;
+    margin-top: 2vh;
+    margin-left: 0%;
+  }
 }
 
 /* ========== Media Queries (Small)========= */
 @media screen and (max-width: 600px) {
-
   .certificate_container{
-    height: 60vh;
-    padding: 0rem 0rem;
+    padding: 2.4rem 2rem;
+    margin-bottom: 4vh;
+    transition: var(--transition);
   }
 
-  .certificate_container h3{
-    margin-left: 6vw;
-    margin-top: 2vh;
-  }
-  
   .certificate_content{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(1, 1fr);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .certificate_details{
+    width: 100%;
   }
 
-  .certificate_name {
-    margin-top: -2vh;
-  }
-  
-  .certificate_text{
-    width: 100%;
-    font-size: 12px;
-    margin-top: 2vh;
-  }
-  
   .certificate_box_image{
-    margin-top: 4vw;
+    width: 100%;
+    margin-top: 2vh;
+    margin-left: 0%;
   }
   
 }
