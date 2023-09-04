@@ -16,12 +16,12 @@ const Header = () => {
           <div className="me">
             <img src={ME} alt="me" />
           </div>
-          <div className="fixed-buttons">
-            <HeaderSocial />
-            <a href="#contact" className="scroll_down">
-              Scroll Down
-            </a>
-          </div>
+        </div>
+        <div className="fixed-buttons">
+          <HeaderSocial />
+          <a href="#contact" className="scroll_down">
+            Scroll Down
+          </a>
         </div>
       </div>
     </header>

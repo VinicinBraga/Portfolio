@@ -8,7 +8,6 @@ header{
   text-align: center;
   height: 100%;
   padding-top: 2rem;
-
 }
 
 /*========= CTA ===== */
@@ -25,7 +24,6 @@ header{
   background: var(--color-light);
   border: solid 2px var(--color-white);
   color: var(--color-primary);
-  ;
 }
 
 .cta a:hover{
@@ -46,8 +44,11 @@ header{
 .me{
   display: flex;
   position: absolute;
+
   width: 44rem;
   opacity: 0.9;
+  -webkit-filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%)); 
+       filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 40%));
 }
 
 
@@ -70,7 +71,8 @@ header{
   gap: 0.7vw;
   height: 20vh;
   width: 2rem;
-  padding-top: 3.5vh;
+  margin-left: -10vw;
+  margin-top: -4vw;
 }
 
 /*========= Scroll Down ===== */
@@ -80,7 +82,6 @@ header{
   font-weight: 400;
   font-size: 1.5rem;
   margin-top: 0vw;
-  padding-bottom: 10vw;
 }
 
 /* ========== Media Queries (Medium) ========= */

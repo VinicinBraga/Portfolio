@@ -12,12 +12,12 @@
 
 :root{
 
-  --color-bg: #a4dfff;
-  --color-bg-variant: #dddddd;
-  --color-primary: #494949;
-  --color-primary-variant: #6fb0d3;
-  --color-white: #52849e; 
-  --color-light: #ffffff; 
+  --color-bg: #a4dfff; /*icone quando selecionado e color da letra dos boteos clets talk e github*/
+  --color-bg-variant: #dddddd; /*Bg- blocos de textos*/
+  --color-primary: #494949; /*Textos e BG secondario e botões lets talk*/
+  --color-primary-variant: #1b98db; /* Hover dos icones e Borda do hover */
+  --color-white: #52849e; /*Bordas, icones laterais e textos secundarios dos blocos*/
+  --color-light: #ffffff; /*bg hover dos blocos, dos 2 primeiros botões e color dos icones*/
 
   --transition: all 400ms ease;
 
