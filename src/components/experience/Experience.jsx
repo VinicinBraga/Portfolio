@@ -36,14 +36,14 @@ const Experience = () => {
             <article className="experience_details">
               <BsShieldFillCheck className="experience_details-icon" />
               <div>
-                <h4>R</h4>
+                <h4>Power BI</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
               <BsShieldFillCheck className="experience_details-icon" />
               <div>
-                <h4>Power BI</h4>
+                <h4>R Language</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
