@@ -115,6 +115,13 @@
     width: 100%;
   }
 
+  .certificate_text{
+   
+    margin-right: 0vw;
+    font-size: 4vw;
+
+  }
+
   .certificate_box_image{
     width: 100%;
     margin-top: 2vh;
