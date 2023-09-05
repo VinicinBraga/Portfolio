@@ -11,7 +11,7 @@ const Footer = () => {
         Vinícius Braga
       </a>
 
-      <ul className="permalinks">
+      <ul className="links">
         <li>
           <a href="#">Home</a>
         </li>
