@@ -29,23 +29,24 @@ const Contact = () => {
       <h2>Contacte Me</h2>
       <div className="container contact_container">
         <div className="contact_options">
-          <article className="contact_option">
+          <a
+            className="contact_option"
+            href="mailto:vinicius@bragamatta.com.br"
+          >
             <MdOutlineMail className="contact_option-icon" />
             <h4>Email</h4>
             <h5>vinibm85@gmail.com</h5>
-            <a href="mailto:vinicius@bragamatta.com.br">Send a message</a>
-          </article>
-          <article className="contact_option">
+            <h5>Send a message</h5>
+          </a>
+          <a
+            className="contact_option"
+            href="https://api.whatsapp.com/send?phone=5531997502685"
+          >
             <BsWhatsapp className="contact_option-icon" />
             <h4>WhatsApp</h4>
             <h5>+55 31 99750-2685</h5>
-            <a
-              href="https://api.whatsapp.com/send?phone=5531997502685"
-              className=""
-            >
-              Send a message
-            </a>
-          </article>
+            <h5>Send a message</h5>
+          </a>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input
