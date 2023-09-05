@@ -12,12 +12,12 @@
 
 :root{
 
-  --color-bg: #a4dfff; /*icone quando selecionado e color da letra dos boteos clets talk e github*/
-  --color-bg-variant: #dddddd; /*Bg- blocos de textos*/
-  --color-primary: #494949; /*Textos e BG secondario e botões lets talk*/
-  --color-primary-variant: #1b98db; /* Hover dos icones e Borda do hover */
-  --color-white: #52849e; /*Bordas, icones laterais e textos secundarios dos blocos*/
-  --color-light: #ffffff; /*bg hover dos blocos, dos 2 primeiros botões e color dos icones*/
+  --light-blue: #a4dfff; 
+  --light-grey: #dddddd; 
+  --color-grey: #494949;
+  --color-blue: #1b98db; 
+  --color-dark-blue: #52849e;
+  --color-light: #ffffff;
 
   --transition: all 400ms ease;
 
@@ -36,7 +36,7 @@ html{
 
 body{
   font-family: 'Poppins', sans-serif;
-  color: var(--color-white);
+  color: var(--color-dark-blue);
   line-height: 1.7;
   background: url('./assets/background-data.jpeg');
   background-size: contain;
@@ -66,51 +66,51 @@ section{
 section > h2, 
 section > h5{
   text-align: center;
-  color: var(--color-white);
+  color: var(--color-dark-blue);
 }
 
 section > h2{
-  color: var(--color-primary);
+  color: var(--color-grey);
   margin-bottom: 2rem;
 }
 
 .text-primary{
-  color: var(--color-primary);
+  color: var(--color-grey);
 }
 .text-light{
   color: var(--color-light);
 }
 
 a{
-  color: var(--color-white);
+  color: var(--color-dark-blue);
   transition: var(--transition);
 }
 
 a:hover{
-  color: var(--color-bg-variant);
+  color: var(--light-grey);
 }
 
 .btn{
   width: max-content;
   display: inline-block;
-  background: var(--color-bg-variant);
-  color: var(--color-primary);
+  background: var(--light-grey);
+  color: var(--color-grey);
   padding: 0.60rem 1.0rem;
   border-radius: 0.4rem;
   cursor: pointer;
-  border: 1px solid var(--color-primary);
+  border: 1px solid var(--color-grey);
   transition: var(--transition);
 }
 
 .btn:hover{
-  background: var(--color-white);
-  color: var(--color-bg);
+  background: var(--color-dark-blue);
+  color: var(--light-blue);
   border-color: transparent;
 }
 
 .btn-primary{
-  background: var(--color-primary);
-  color: var(--color-bg);
+  background: var(--color-grey);
+  color: var(--light-blue);
 }
 
 img{

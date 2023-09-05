@@ -11,7 +11,7 @@
   background: linear-gradient(
     45deg, 
     transparent,
-    var(--color-white), 
+    var(--color-dark-blue), 
     transparent
   );
   display: grid;
@@ -35,7 +35,7 @@
   gap: 1.5rem;
 }
 .about_card{
-  background: var(--color-bg-variant);
+  background: var(--light-grey);
   border: 1px solid transparent;
   border-radius: 1rem;
   padding: 1.5rem;
@@ -45,12 +45,12 @@
 
 .about_card:hover{
   background: var(--color-light);
-  border: 1px solid var(--color-primary-variant);
+  border: 1px solid var(--color-blue);
   cursor: pointer;
 }
 
 .about_icon{
-  color: var(--color-primary);
+  color: var(--color-grey);
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
@@ -58,18 +58,18 @@
 .about_card h5{
   padding: 0rem;
   font-size: 0.95rem;
-  color: var(--color-primary-variant);
+  color: var(--color-blue);
 }
 
 .about_card small{
   font-size: 0.8rem;
-  color: var(--color-primary);
+  color: var(--color-grey);
   
 }
 
 .about_content p{
   margin: 2rem 0 2.6rem;
-  color: var(  --color-primary);
+  color: var(  --color-grey);
 }
 
 /* ========== Media Queries (Medium) ========= */

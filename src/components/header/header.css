@@ -22,13 +22,13 @@ header{
 .cta a{
   width: 12vw;
   background: var(--color-light);
-  border: solid 2px var(--color-white);
-  color: var(--color-primary);
+  border: solid 2px var(--color-dark-blue);
+  color: var(--color-grey);
 }
 
 .cta a:hover{
-  background: var(--color-white);
-  border: solid 2px var(--color-primary);
+  background: var(--color-dark-blue);
+  border: solid 2px var(--color-grey);
   color: var(--color-light);
 }
 

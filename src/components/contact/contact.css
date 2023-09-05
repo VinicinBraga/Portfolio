@@ -12,12 +12,12 @@
 }
 
 .contact_option h4{
-  color: var(--color-primary);
+  color: var(--color-grey);
   margin-bottom: 2vh;
 }
 
 .contact_option{
-  background: var(--color-bg-variant);
+  background: var(--light-grey);
   padding: 1.2rem;
   border-radius: 1.2rem;
   text-align: center;
@@ -30,7 +30,7 @@
 
 .contact_option:hover{
   background: var( --color-light);
-  border-color: var(--color-primary-variant);
+  border-color: var(--color-blue);
 }
 
 .contact_option-icon{
@@ -49,9 +49,9 @@ input, textarea{
   padding: 1.5rem;
   border-radius: 0.5rem;
   background: var( --color-light);
-  border: 2px solid var(--color-primary-variant);
+  border: 2px solid var(--color-blue);
   resize: none;
-  color: var(--color-white);
+  color: var(--color-dark-blue);
 }
 
 /* ========== Media Queries (Medium) ========= */
