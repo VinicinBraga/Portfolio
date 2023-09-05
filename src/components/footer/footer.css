@@ -31,8 +31,7 @@ footer a{
 
 .links li a:hover {
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: var(--color-light); 
-  
+  -webkit-text-stroke-color: var(--color-light);  
 }
 
 .footer_socials{
