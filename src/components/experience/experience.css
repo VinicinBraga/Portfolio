@@ -27,6 +27,7 @@
   color: var(--color-primary);
 }
 
+
 .experience_content{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -35,6 +36,7 @@
 
 .experience_details{
   display: flex;
+  font-size: 1.2vw;
   gap: 1rem;
   
 }

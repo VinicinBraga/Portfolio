@@ -50,6 +50,20 @@ const Experience = () => {
             <article className="experience_details">
               <BsShieldFillCheck className="experience_details-icon" />
               <div>
+                <h4>Big Query</h4>
+                <small className="tect-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsShieldFillCheck className="experience_details-icon" />
+              <div>
+                <h4>Metabase</h4>
+                <small className="tect-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsShieldFillCheck className="experience_details-icon" />
+              <div>
                 <h4>Excel</h4>
                 <small className="tect-light">Experienced</small>
               </div>
@@ -62,7 +76,7 @@ const Experience = () => {
             <article className="experience_details">
               <BsShieldFillCheck className="experience_details-icon" />
               <div>
-                <h4>React JS</h4>
+                <h4>ReactJS</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
@@ -76,7 +90,7 @@ const Experience = () => {
             <article className="experience_details">
               <BsShieldFillCheck className="experience_details-icon" />
               <div>
-                <h4>Node JS</h4>
+                <h4>NodeJS</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
@@ -98,6 +112,20 @@ const Experience = () => {
               <BsShieldFillCheck className="experience_details-icon" />
               <div>
                 <h4>MySQL</h4>
+                <small className="tect-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsShieldFillCheck className="experience_details-icon" />
+              <div>
+                <h4>Tailwind</h4>
+                <small className="tect-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsShieldFillCheck className="experience_details-icon" />
+              <div>
+                <h4>Vite</h4>
                 <small className="tect-light">Experienced</small>
               </div>
             </article>
